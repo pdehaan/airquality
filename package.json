@@ -1,0 +1,27 @@
+{
+  "name": "airquality",
+  "description": "Check local air quality stats via purpleair API.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": {
+    "purpleair": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/airquality/issues"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/airquality#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "lib.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/airquality.git"
+  },
+  "scripts": {
+    "test": "node cli"
+  }
+}
